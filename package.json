@@ -1,5 +1,6 @@
 {
   "name": "colorapp",
+  "homepage": "https://akshayps10.github.io/colorApp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy":"hg-pages -d build",
+    "deploy":"gh-pagees -d build"
   },
   "dependencies": {
     "react": "^18.3.1",
